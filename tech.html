@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tech</title>
+    <link rel = "stylesheet" href="styles.css"/>
+    <script src="app.js"></script>
+</head>
+<body>
+    <ul class="navbar">
+        <li>
+            <a class= "navtext" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class= "navtext" href="tech.html">Tech</a>
+        </li>
+        <li>
+            <a class="navtext" href="about.html">About</a>
+        </li>
+        <li>
+            <a class= "navimage" class = "github" href="https://github.com/pranavnightsforrobotics/LaunchPad"><img class="imageGithub" src="ok.png"></a>
+        </li>
+    </ul>
+
+    <div class = "techPage">
+        <marquee class = "text" direction="right" behavior="alternate"> I used the CACO dataset and RoboFlow to train a YOLO model.</marquee>
+        <marquee class = "text" direction="left" behavior="alternate"> I converted the pytorch model into a coreml model.</marquee>
+        <marquee class = "text" direction="right" behavior="alternate"> I used swift to make the app!</marquee>
+    </div>
+
+    <button type="button" onclick="show1()" id="btnID1">Show YOLO</button>
+    <img id="image1" src="" />
+
+    <button type="button" onclick="show2()" id="btnID2">Show CoreML</button>
+    <img id="image2" src="" />
+
+    <button type="button" onclick="show3()" id="btnID3">Show Swift</button>
+    <img id="image3" src="" />
+
+</body>
+</html>

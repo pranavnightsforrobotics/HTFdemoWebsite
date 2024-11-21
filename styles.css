@@ -1,0 +1,67 @@
+body {
+    background-color: #333;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.navtext {
+    float: left;
+}
+
+.navtext {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navtext:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.navimage {
+    display: block;
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.imageGithub {
+    height: 30px;
+    width: 30px;
+}
+
+.text {
+    padding: 5px;
+    font-size: xx-large;
+    color: crimson;
+}
+
+.prawnImg {
+    height: 300px;
+    display: block;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.hoverText {
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    color: chocolate;
+}
